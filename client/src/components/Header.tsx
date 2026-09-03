@@ -22,6 +22,10 @@ const primaryLinks = [
     i18nKey: "nav_link_about",
     href: "/about",
   },
+  {
+    i18nKey: "nav_link_test",
+    href: "/test",
+  },
 ] as const;
 
 const Header = () => {
